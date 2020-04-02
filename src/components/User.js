@@ -4,7 +4,7 @@ const User = ({ name, location, email }) => {
   const { first, last } = name;
   const { city, state } = location;
   return (
-    <div>
+    <div class="user">
       <p>
         <strong>Name:</strong> {first} {last}
       </p>

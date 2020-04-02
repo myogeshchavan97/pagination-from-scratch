@@ -4,6 +4,7 @@ body {
   width: 60%;
   margin: auto;
   background: #ccc;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -17,9 +18,15 @@ h1 {
   line-height: 200px;
 }
 
+.user p {
+  word-break: break-word;
+}
 .numbers {
   text-align: center;
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 a {
